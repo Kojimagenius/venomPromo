@@ -1,7 +1,10 @@
 body {
-  background-color: #14131a;
   color: #fff;
   font-family: "Roboto", sans-serif;
+}
+.blood {
+  background: url("../images/blood.svg") no-repeat top right,
+    #14131a url("../images/backround-image.jpg") no-repeat center / 100%;
 }
 .container {
   max-width: 1140px;
@@ -11,7 +14,6 @@ body {
   display: flex;
   align-items: center;
   padding-top: 40px;
-  padding-left: 100px;
   margin-bottom: 80px;
 }
 .logo-link {
@@ -45,4 +47,35 @@ body {
   line-height: 140%;
   /* or 22px */
   color: rgba(255, 255, 255, 0.8);
+}
+.button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button-text,
+.button-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.button-text {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.button-group {
+  margin-top: 70px;
+}
+.button-primary {
+  color: #8d0019;
+  background-color: #fff;
+}
+.button-link {
+  color: #fff;
+}
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
